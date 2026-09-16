@@ -6,6 +6,11 @@ class Stormchecker < Formula
   license "GPL-3.0-only"
   head "https://github.com/stormchecker/storm.git", using: :git, branch: "master"
 
+  livecheck do
+    url :stable
+    strategy :github_latest
+  end
+
   bottle do
     root_url "https://github.com/stormchecker/homebrew-stormchecker/releases/download/stormchecker-1.14.0"
     sha256 cellar: :any, arm64_tahoe:   "b494ce4e4f2d5bb74b7a9459318777d26be17c7f207d364f94eeb3ce190a437a"

@@ -9,6 +9,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read
+
 env:
   # GitHub runners currently have 4 cores
   NR_JOBS: "4"
