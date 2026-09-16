@@ -4,13 +4,12 @@ class Stormchecker < Formula
   url "https://github.com/stormchecker/storm/archive/refs/tags/1.14.0.tar.gz"
   sha256 "ab5d7df2049ab683c3062f58d4201f960f8295bb9c702a2352305b7c7c597010"
   license "GPL-3.0-only"
+  head "https://github.com/stormchecker/storm.git", using: :git, branch: "master"
 
   livecheck do
     url :stable
     strategy :github_latest
   end
-
-  head "https://github.com/stormchecker/storm.git", using: :git, branch: "master"
 
   bottle do
     root_url "https://github.com/stormchecker/homebrew-stormchecker/releases/download/stormchecker-1.14.0"
