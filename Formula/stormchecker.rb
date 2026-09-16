@@ -7,7 +7,7 @@ class Stormchecker < Formula
   head "https://github.com/stormchecker/storm.git", using: :git, branch: "master"
 
   bottle do
-    root_url "https://github.com/moves-rwth/homebrew-storm/releases/download/stormchecker-1.14.0"
+    root_url "https://github.com/stormchecker/homebrew-stormchecker/releases/download/stormchecker-1.14.0"
     sha256 cellar: :any, arm64_tahoe:   "b494ce4e4f2d5bb74b7a9459318777d26be17c7f207d364f94eeb3ce190a437a"
     sha256 cellar: :any, arm64_sequoia: "6f60bfde155499e0d4e7b438b58588e79c9424ea8a5d5125c31c36c2ce970466"
     sha256 cellar: :any, arm64_sonoma:  "5b5c9401a7305b301a94fdf79bd76a67c0bd98e9160d3bf51a40e4b4a9380fd5"
