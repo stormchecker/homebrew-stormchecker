@@ -5,11 +5,11 @@ This tap provides the formula to install Storm via homebrew.
 ## Installation
 You can install Storm via
 
-`brew install moves-rwth/storm/stormchecker`
+`brew install stormchecker/stormchecker/stormchecker`
 
 Alternatively, you can execute
 
-`brew tap moves-rwth/storm`
+`brew tap stormchecker/stormchecker`
 
 and then
 
