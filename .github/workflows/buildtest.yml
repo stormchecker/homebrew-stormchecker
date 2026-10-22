@@ -23,10 +23,6 @@ jobs:
     strategy:
       matrix:
         config:
-          - {name: "macOS 14, ARM",
-             distro: "macos-14",
-             buildType: "Release"
-            }
           - {name: "macOS 15, ARM",
              distro: "macos-15",
              buildType: "Release"
@@ -42,6 +38,10 @@ jobs:
           - {name: "macOS 26, Intel",
              distro: "macos-26-intel",
              buildType: "Release"
+            }
+          - {name: "macOS 27, ARM",
+             distro: "xcode-27",
+             buildType: "Release",
             }
     runs-on: ${{ matrix.config.distro }}
     steps:
