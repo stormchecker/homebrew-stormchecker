@@ -13,12 +13,12 @@ class Stormchecker < Formula
   end
 
   bottle do
-    root_url "https://github.com/stormchecker/homebrew-stormchecker/releases/download/stormchecker-2.0.0"
-    sha256 cellar: :any, arm64_golden_gate: "bb503c01ffa459eb01e3bfd83d969801b1408a724481d30e996b6f70b7fee748"
-    sha256 cellar: :any, arm64_tahoe:       "591784746260527ecae7cc5bffc3f81ff0a1a2f45da5a690be8be554690351b8"
-    sha256 cellar: :any, arm64_sequoia:     "0d68612e0c608688ad26d862d45aa61e0fad056e3e5fb58e8ba691646e7b8322"
-    sha256 cellar: :any, arm64_linux:       "d30b7258a3359b2e6f31b42306c5e2438bad8a644b18e9a8ce08d3087c4dda4a"
-    sha256 cellar: :any, x86_64_linux:      "7b5909babb4380db7ca12940be5c2be739d0876990e802ce95eb40229f2c11ce"
+    root_url "https://github.com/stormchecker/homebrew-stormchecker/releases/download/stormchecker-2.0.0_1"
+    sha256 cellar: :any, arm64_golden_gate: "6ce5ce98f19dbb67e2f2c50c2a67a2611d08bb317d414b7fd9c6ef4faec75ca6"
+    sha256 cellar: :any, arm64_tahoe:       "482fcb869acc746343d7749570bc90f7a0a32808d394d5b5a0ba758aef7cded6"
+    sha256 cellar: :any, arm64_sequoia:     "c01052b64e55a11fa3a53b9a5935a6dca8e9dd50d027e982d148ca8653e7dc72"
+    sha256 cellar: :any, arm64_linux:       "ec5fa08093e048690c797cedcf42ff1df1f107a4a7637e960591c48427200684"
+    sha256 cellar: :any, x86_64_linux:      "0f1e4fdbfb0261e5c38ee8f5734db42d8f00f7e73840cc344e830dc15807134b"
   end
 
   depends_on "automake" => :build
