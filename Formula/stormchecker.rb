@@ -4,6 +4,7 @@ class Stormchecker < Formula
   url "https://github.com/stormchecker/storm/archive/refs/tags/2.0.0.tar.gz"
   sha256 "60f0df72032331bd5284038b7a30ee3c003cbff672eda74cf302a0ee28164f00"
   license "GPL-3.0-only"
+  revision 1
   head "https://github.com/stormchecker/storm.git", using: :git, branch: "master"
 
   livecheck do
