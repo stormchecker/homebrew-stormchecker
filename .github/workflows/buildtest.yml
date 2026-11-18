@@ -51,7 +51,7 @@ jobs:
         uses: Homebrew/actions/setup-homebrew@main
 
       - name: Audit formula
-        run: brew audit --strict --new --online stormchecker
+        run: brew audit --strict --online stormchecker
       - name: Build Storm from Homebrew formula
         run: brew install -v --build-from-source stormchecker
 
